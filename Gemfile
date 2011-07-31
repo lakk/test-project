@@ -1,7 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.0.rc5'
-
+gem 'activeadmin', :git => 'git://github.com/gregbell/active_admin.git'
+gem 'meta_search', :git => 'git://github.com/ernie/meta_search.git'
+gem 'therubyracer'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
